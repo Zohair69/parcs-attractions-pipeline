@@ -20,7 +20,13 @@ jobs:
       - name: Installer les librairies nécessaires
         run: pip install requests pandas google-cloud-bigquery
 
-      - name: Lancer la collecte
+      - name: Lancer la collecte des temps d'attente
         run: python src/collecte.py
+        env:
+          GCP_CLE_JSON: ${{ secrets.GCP_CLE_JSON }}
+
+      - name: Lancer la collecte météo
+        if: always()   # même si la collecte des temps d'attente échoue
+        run: python src/meteo.py
         env:
           GCP_CLE_JSON: ${{ secrets.GCP_CLE_JSON }}
