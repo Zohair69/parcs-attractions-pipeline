@@ -137,7 +137,6 @@ Cinq pages dans Looker Studio, avec un filtre Parc commun à toutes les pages ([
 4. **Recommandations** : quand venir dans chaque parc ;
 5. **Limites** : ce qui reste à confirmer.
 
-Charte : police Lato, couleurs `#4A6C8C`, `#D4A373`, `#9DB4C8`, `#8C7A6B`.
 
 ## Limites
 
