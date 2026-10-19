@@ -8,7 +8,6 @@ Projet individuel réalisé par **Zohair** dans le cadre de la formation Data An
 
 | Livrable | Lien |
 |---|---|
-| Tableau de bord Looker Studio (en ligne) | [Ouvrir le tableau de bord](LIEN_LOOKER_STUDIO) |
 | Tableau de bord (export PDF) | [docs/dashboard_Ayline_Parcs.pdf](docs/dashboard_Ayline_Parcs.pdf) |
 | Présentation orale | [docs/Presentation_parcsAyline_Zohair.pdf](docs/Presentation_parcsAyline_Zohair.pdf) |
 
@@ -131,7 +130,7 @@ Chaque chiffre affiché dans le tableau de bord est recalculé ou vérifié par 
 
 ## Le tableau de bord
 
-Cinq pages dans Looker Studio, avec un filtre Parc commun à toutes les pages ([version en ligne](LIEN_LOOKER_STUDIO), [export PDF](docs/dashboard_Ayline_Parcs.pdf)) :
+Cinq pages dans Looker Studio, avec un filtre Parc commun à toutes les pages ([export PDF](docs/dashboard_Ayline_Parcs.pdf)) :
 1. **Vue d'ensemble** : indicateurs clés et attente moyenne par parc ;
 2. **Attente selon l'heure** : attente heure par heure pour chaque parc Disney ;
 3. **Effet de la météo** : attente selon le type de temps ;
